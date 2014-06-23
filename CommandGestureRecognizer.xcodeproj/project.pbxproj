@@ -21,6 +21,9 @@
 		FE1323FF1958376100F32CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1323E11958376100F32CDB /* UIKit.framework */; };
 		FE1324071958376100F32CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE1324051958376100F32CDB /* InfoPlist.strings */; };
 		FE1324091958376100F32CDB /* CommandGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1324081958376100F32CDB /* CommandGestureRecognizerTests.m */; };
+		FE1324151958386200F32CDB /* PMCommandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1324141958386200F32CDB /* PMCommandGestureRecognizer.m */; };
+		FE13241819584CFB00F32CDB /* PMKonamiGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */; };
+		FE13241B19584E8100F32CDB /* PMKakarotGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		FE1324041958376100F32CDB /* CommandGestureRecognizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommandGestureRecognizerTests-Info.plist"; sourceTree = "<group>"; };
 		FE1324061958376100F32CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE1324081958376100F32CDB /* CommandGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandGestureRecognizerTests.m; sourceTree = "<group>"; };
+		FE1324131958386200F32CDB /* PMCommandGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCommandGestureRecognizer.h; sourceTree = "<group>"; };
+		FE1324141958386200F32CDB /* PMCommandGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCommandGestureRecognizer.m; sourceTree = "<group>"; };
+		FE13241619584CFB00F32CDB /* PMKonamiGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKonamiGestureRecognizer.h; sourceTree = "<group>"; };
+		FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMKonamiGestureRecognizer.m; sourceTree = "<group>"; };
+		FE13241919584E8100F32CDB /* PMKakarotGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKakarotGestureRecognizer.h; sourceTree = "<group>"; };
+		FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMKakarotGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,7 @@
 		FE1323E31958376100F32CDB /* CommandGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				FE1324121958384300F32CDB /* CommandGestureRecognizer */,
 				FE1323EC1958376100F32CDB /* PMAppDelegate.h */,
 				FE1323ED1958376100F32CDB /* PMAppDelegate.m */,
 				FE1323EF1958376100F32CDB /* Main.storyboard */,
@@ -150,6 +160,19 @@
 				FE1324051958376100F32CDB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE1324121958384300F32CDB /* CommandGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				FE1324131958386200F32CDB /* PMCommandGestureRecognizer.h */,
+				FE1324141958386200F32CDB /* PMCommandGestureRecognizer.m */,
+				FE13241619584CFB00F32CDB /* PMKonamiGestureRecognizer.h */,
+				FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */,
+				FE13241919584E8100F32CDB /* PMKakarotGestureRecognizer.h */,
+				FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */,
+			);
+			path = CommandGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13241B19584E8100F32CDB /* PMKakarotGestureRecognizer.m in Sources */,
 				FE1323EA1958376100F32CDB /* main.m in Sources */,
 				FE1323F41958376100F32CDB /* PMViewController.m in Sources */,
+				FE13241819584CFB00F32CDB /* PMKonamiGestureRecognizer.m in Sources */,
+				FE1324151958386200F32CDB /* PMCommandGestureRecognizer.m in Sources */,
 				FE1323EE1958376100F32CDB /* PMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

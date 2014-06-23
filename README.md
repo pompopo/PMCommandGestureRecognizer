@@ -16,6 +16,7 @@ CommandGestureRecognizerフォルダ内のファイルをコピーしてくだ�
 PMCommandGestureRecognizerのサブクラスを作り、initWithTarget:action:を上書きしてやることで、
 好きなコマンドを作成することができます。
 下は、PMKakarotGestureRecognizerの実装です。
+
     - (id)initWithTarget:(id)target action:(SEL)action {
         return [super initWithTarget:target
                               action:action

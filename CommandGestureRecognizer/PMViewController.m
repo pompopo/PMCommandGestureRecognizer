@@ -7,23 +7,28 @@
 //
 
 #import "PMViewController.h"
-
+#import "PMKonamiGestureRecognizer.h"
+#import "PMKakarotGestureRecognizer.h"
 @interface PMViewController ()
 
 @end
 
 @implementation PMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    PMKonamiGestureRecognizer *recognizer = [[PMKonamiGestureRecognizer alloc] initWithTarget:self action:@selector(powerup:)];
+    [self.view addGestureRecognizer:recognizer];
+    
+    PMKakarotGestureRecognizer *recognizer2 = [[PMKakarotGestureRecognizer alloc] initWithTarget:self action:@selector(kakarot:)];
+    [self.view addGestureRecognizer:recognizer2];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)powerup:(UIGestureRecognizer *)recognizer {
+    NSLog(@"full power");
 }
-
+- (void)kakarot:(UIGestureRecognizer *)recognizer {
+    NSLog(@"kakarot");
+}
 @end

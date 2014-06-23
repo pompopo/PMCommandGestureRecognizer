@@ -24,6 +24,7 @@
 		FE1324151958386200F32CDB /* PMCommandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1324141958386200F32CDB /* PMCommandGestureRecognizer.m */; };
 		FE13241819584CFB00F32CDB /* PMKonamiGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */; };
 		FE13241B19584E8100F32CDB /* PMKakarotGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */; };
+		FE13241E1958634100F32CDB /* PMCapcomGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13241D1958634100F32CDB /* PMCapcomGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMKonamiGestureRecognizer.m; sourceTree = "<group>"; };
 		FE13241919584E8100F32CDB /* PMKakarotGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKakarotGestureRecognizer.h; sourceTree = "<group>"; };
 		FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMKakarotGestureRecognizer.m; sourceTree = "<group>"; };
+		FE13241C1958634100F32CDB /* PMCapcomGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCapcomGestureRecognizer.h; sourceTree = "<group>"; };
+		FE13241D1958634100F32CDB /* PMCapcomGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCapcomGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				FE13241719584CFB00F32CDB /* PMKonamiGestureRecognizer.m */,
 				FE13241919584E8100F32CDB /* PMKakarotGestureRecognizer.h */,
 				FE13241A19584E8100F32CDB /* PMKakarotGestureRecognizer.m */,
+				FE13241C1958634100F32CDB /* PMCapcomGestureRecognizer.h */,
+				FE13241D1958634100F32CDB /* PMCapcomGestureRecognizer.m */,
 			);
 			path = CommandGestureRecognizer;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				FE1323EA1958376100F32CDB /* main.m in Sources */,
 				FE1323F41958376100F32CDB /* PMViewController.m in Sources */,
 				FE13241819584CFB00F32CDB /* PMKonamiGestureRecognizer.m in Sources */,
+				FE13241E1958634100F32CDB /* PMCapcomGestureRecognizer.m in Sources */,
 				FE1324151958386200F32CDB /* PMCommandGestureRecognizer.m in Sources */,
 				FE1323EE1958376100F32CDB /* PMAppDelegate.m in Sources */,
 			);
